@@ -84,9 +84,9 @@ button {
 	width: 100vw;
 }
 
-.col {
+/*.col {
 	border: 1px red solid;
-}
+}*/
 
 
 .bg-brown {
@@ -130,6 +130,18 @@ button {
 
 .img-three {
 	max-width: 90%;
+}
+
+@media (max-width: 1199.98px) {
+
+.img-one {
+	width: 100vw;
+}
+
+}
+
+.padding-bottom-3rem {
+	padding-bottom: 3rem;
 }
 
 
