@@ -52,6 +52,13 @@ button {
 	border: 1px solid #FFF6EA;
 }
 
+.btn-primary:active {
+	background: rgba(0, 0, 0, 0.25);
+	border: 1px solid #FFF6EA;
+}
+
+
+
 .btn-secondary {
 	background: rgba(255, 237, 217, 0.0);
 	color: #3C0717;
@@ -61,7 +68,7 @@ button {
 	padding-right: 30px;
 }
 
-.btn-secondary:hover {
+.btn-secondary:onclick {
 	background: rgba(60, 7, 23, 0.15);
 	color: #3C0717;
 	border: 1px solid #3C0717;
@@ -144,4 +151,12 @@ button {
 	padding-bottom: 3rem;
 }
 
+.footer-text {
+	font-size: 1rem;
+	padding-bottom: 0px;
+	padding-top: 1rem;
+}
 
+.navbar-padding {
+	padding: 7px 20px 1px 20px;
+}
