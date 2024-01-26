@@ -5,6 +5,17 @@ body {
 }
 
 .col {
-	background-color: grey;
 	border: 1px red solid;
+}
+
+.bg-brown {
+	background-color: #3C0717;
+}
+
+.bg-red {
+	background-color: #680D28;
+}
+
+.bg-cream {
+	background-color: #FFF6EA;
 }
