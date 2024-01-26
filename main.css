@@ -3,6 +3,17 @@ body {
 	height: 100%;
 }
 
+h1, h2, h3 {
+	font-family: 'Macondo', cursive;
+	font-size: 4rem;
+}
+
+p, button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+}
+
+
 .container {
 	margin: 0px !important;
 }
@@ -11,9 +22,9 @@ body {
 	width: 100vw;
 }
 
-.col {
+/*.col {
 	border: 1px red solid;
-}
+}*/
 
 .bg-brown {
 	background-color: #3C0717;
@@ -27,6 +38,13 @@ body {
 	background-color: #FFF6EA;
 }
 
+.text-brown {
+ 	color: #3C0717;
+}
+
+.text-cream {
+	color: #FFF6EA;
+}
 
 .img-col {
 	max-width: 50vw;
